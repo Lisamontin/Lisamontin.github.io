@@ -1,0 +1,108 @@
+@import url("test.css");
+
+body {
+  background: linear-gradient(145deg, #d9d9d9, #53acac);
+  /* background-color:#d9d9d9; */
+  margin: 0%;
+}
+
+/* random comment */
+p {
+  text-align: justify;
+  padding: 1%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 35%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: transform 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+li a {
+  /* display: block; */
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  
+}
+
+.headings {
+  text-align: center;
+  font-size: 40px;
+  font-family: Acme, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.brown-text {
+  color: #453321;
+}
+
+.lists {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid gray;
+}
+
+.list-background {
+  padding: 1px;
+  background-color: #214545;
+  opacity: 0.7;
+  color: white;
+}
+
+.thick-brown-border {
+  border-color: #453321;
+  border-width: 15px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-list {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+}
+
+.contact-tab {
+  background-color:  #ffc266;
+}
+
+#rubrik {
+  padding-top: 60px;
+}
+
+.blue {
+  color: blue;
+}
+
+.big {
+  font-size: 2em;
+}
